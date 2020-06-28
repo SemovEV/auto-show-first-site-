@@ -1,0 +1,89 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+}
+.footer {
+    margin-top: -100px;
+  height: 100px;
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.car_accept{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    overflow: hidden;
+}
+
+.car_accept2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    overflow: hidden;
+}
+.card_accept{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px  dashed black;
+    border-bottom: 2px  dashed black;
+    align-items: center;
+}
+.card_accept img{
+    width: 50%;
+}
+li{
+    list-style: none;
+}
+.top{
+    width: 100%;
+    padding-left: 60%;
+    margin-bottom: 20px;
+    border-bottom: 2px dashed black;
+}
+.top2{
+    width: 100%;
+    padding-left: 40%;
+    margin-bottom: 20px;
+    border-bottom: 2px dashed black;
+}
+.down{
+    align-self: center;
+    margin-top: 20%;
+}
+.down img{
+    padding-left: 27%;
+}
+form{
+    width: 100%;
+}
+.end_acc{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.end_acc2{
+    height: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.but_acc2{
+    margin-top: 20%;
+    margin-left: 20%;
+}
